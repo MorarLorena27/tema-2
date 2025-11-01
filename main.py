@@ -28,7 +28,7 @@ if __name__ == '__main__':
     for i in range (len(elevi)):
         nume_elev = elevi[i]
         nota_elev = note[i]
-        if(nota_elev>=5):
+        if nota_elev>=5 :
             print(nume_elev+" are nota "+str (nota_elev))
     for i in range(len(note)):
         if note[i]<10:
